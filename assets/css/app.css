@@ -1,0 +1,452 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800;900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,700;1,800&display=swap');
+
+.font {
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Playfair Display', serif;
+}
+
+.dark {
+    background: #121212;
+    margin: 0;
+}
+
+.light {
+    background: #f5f5f5;
+    margin: 0;
+}
+
+
+.con {
+    padding: 15px 130px;
+}
+
+.logo {
+    
+/* margin-block-start: 0; */
+/* margin-block-end: 0; */
+font-family: 'Playfair Display', serif;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 135.3%;
+/* or 32px */
+
+
+color: #E7E7E7;
+}
+
+.light .logo, .light .hero h1, .light .subTxt{
+    color: #222;
+}
+
+.hero h1 {
+    /* Superhero fullstack developer */
+
+
+position: relative;
+padding-top:120px;
+width: 80%;
+margin-block-start: 0px;
+margin-block-end: 0px;
+font-family: 'Playfair Display', serif;
+font-style: normal;
+font-weight: 900;
+font-size: 72px;
+line-height: 88px;
+
+/* White */
+
+color: #E7E7E7;
+}
+
+.subTxt {
+width: 60%;
+position: relaive;
+display: block;
+margin-top: 25px ;
+
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 163.8%;
+/* or 29px */
+
+
+/* low emphasis */
+
+color: #A0A0A0;
+}
+
+
+
+.btn{
+display: inline-block;
+margin-top: 25px ;
+padding: 15px 30px;
+background: #E5AB17;
+border: 2px solid #E5AB17;
+box-sizing: border-box;
+border-radius: 100px;
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 14px !important;
+line-height: 163.8%;
+/* identical to box height, or 23px */
+
+letter-spacing: 0.155em;
+text-transform: uppercase;
+cursor: pointer;
+color: #121212;
+text-decoration: none;
+}
+
+.btn:hover{
+    background: transparent;
+    color: #E5AB17;
+}
+
+.btn.out{
+    background: transparent;
+    color: #E7E7E7;
+    border: none;
+}
+
+.icons {
+    margin-top: 190px;
+}
+
+.icons .icon{
+    background: #232323;
+    border-radius: 50%;
+    padding: 20px 16px;
+    margin-right: 24px;
+}
+
+.icon span{
+    padding: 15px;
+    background-position: center;
+    background-repeat: no-repeat !important;
+    /* background-size: contain; */
+}
+.git{
+    background: url('../img/git.svg');
+}
+
+.linkdin{
+    background: url('../img/linkedin.svg');
+}
+
+.codepen{
+    background: url('../img/codepen.svg');
+}
+
+.twitter{
+    background: url('../img/twitter.svg');
+}
+
+
+.splash{
+    position: absolute;
+    right: 0px;
+    background: url('../img/Waiau.svg');
+    height: 860px;
+    width: 700px;
+    margin-top: -80px;
+}
+
+
+@media(max-width:769px){
+    .countr{
+        margin-top: -200px;
+        margin-left: 200px;
+    }
+    .prod .detail {
+        width: 200px !important;
+        padding: 15px 30px !important;
+        position: absolute;
+        margin-left: 50px !important;
+        margin-top: -100px !important;
+    }
+    .prod img {
+        width: 209px !important;
+        height: 170px !important;
+    }
+    
+
+    .detail h6{
+        font-size: 24px !important;
+line-height: 147.8% !important;
+    }
+    .detail p{
+        font-size: 15px !important;
+      line-height: 163.8% !important;
+    }
+    .arr {
+        /* position: absolute; */
+        left: -200px !important;
+        width: 350px !important;
+        
+    }
+
+    .sect p {
+        font-size: 18px !important;
+    }
+
+
+    .flx .icons{
+        margin-top: 150px !important;
+    }
+    .splash{
+        /* right: -150px; */
+        width: 250px;
+    }
+    .con {
+        padding: 15px 30px;
+    }
+    .hero h1 {
+        padding-top:66px !important;
+        font-style: normal;
+font-weight: 900;
+font-size: 48px;
+line-height: 122.3%;
+    }
+    .prod .detail{
+        margin-left: 48px;
+        }
+        .p5{
+            margin: 0px !important;
+        }
+        .subTxt{
+            width:100%
+        }
+        .flx {
+            display: block !important;
+        }
+        #ender {
+            padding-left: 0px !important;
+        }
+        .leader{
+            padding-right: 0PX !important;
+            font-family: Playfair Display;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 147.8%;
+        }
+}
+
+.lead{
+font-family: Playfair Display;
+font-style: normal;
+font-weight: bold;
+font-size: 18px ;
+line-height: 147.8%;
+/* identical to box height, or 27px */
+
+letter-spacing: 0.315em;
+text-transform: uppercase;
+
+/* White */
+
+color: #E7E7E7;
+}
+
+.sect {
+    margin-top: 120px;
+}
+
+#about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#about a{
+    padding-top: 40px;
+}
+
+.p5{
+    margin: 0 50px;
+}
+
+.sect p{
+    padding-top:56PX ;
+    font-family: Nunito Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 147.8%;
+/* or 35px */
+
+
+/* low emphasis */
+
+color: #A0A0A0;
+}
+
+a.lint,.btn.out {
+    font-family: Nunito Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 163.8%;
+/* or 29px */
+
+letter-spacing: 0.155em;
+text-decoration-line: underline;
+text-transform: uppercase;
+
+/* White */
+
+color: #E7E7E7;
+}
+
+a.lint:hover,.btn.out:hover{
+    text-decoration: none;
+    color: #E5AB17;
+}
+
+.prod{
+    padding:113px 113px 113px 0;
+    margin-right: 250px;
+}
+
+.prod img{
+width: 450px;
+height: 300px;
+}
+
+.prod .detail{
+padding: 45px 60px;
+position: absolute;
+width: 380px;
+/* height: 380px; */
+margin-left: 304px;
+margin-top:-200px;
+background: #232323;
+z-index: 2;
+}
+
+.prod .detail h6{
+    font-family: Playfair Display;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 147.8%;
+margin-block-start: 0px;
+    margin-block-end: 15px;
+/* or 53px */
+
+
+/* White */
+
+color: #E7E7E7;
+}
+
+.prod .detail p {
+    font-family: Nunito Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 163.8%;
+/* or 29px */
+padding-top:0px ;
+
+
+/* 2nd low emphasis */
+
+color: #B0B0B0;
+}
+
+.carousel-wraps{
+    /* margin-left: 50px; */
+}
+
+#projects .con {
+    padding-right: 0px;
+}
+
+.countr{
+position: absolute;
+padding-left:15px;
+font-family: Playfair Display;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 147.8%;
+/* or 53px */
+
+
+color: #FFFFFF;
+}
+
+.countr .line{
+    letter-spacing: -4px;
+    padding-bottom: 5px;
+    position: relative;
+    font-weight: 100 !important;
+    font-size: 15px;
+    font-family: Nunito Sans;
+}
+
+.leader{
+font-family: Playfair Display;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 147.8%;
+padding-right: 300px;
+/* or 53px */
+
+
+color: #E7E7E7;
+}
+
+.leader a {
+    color: #E5AB17 !important;
+}
+
+.flx {
+    display: flex;
+    padding-top: 40px;
+}
+
+.flx .icons {
+    margin-top: 20px;
+}
+
+.arr {
+    position: absolute;
+    left: 0;
+    margin-top:50px
+}
+
+#ender{
+    padding-left: 40px;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left:0;
+    text-align: center;
+    font-family: Nunito Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 135.3%;
+z-index: 1000000;
+/* or 32px */
+
+
+/* White */
+
+color: #E7E7E7;
+}
+
+svg{
+    /* display: none; */
+}
